@@ -53,7 +53,7 @@ Qi						8-bit	Input data (write)
 Qa						8-bit	Output data (read)
 valid						1-bit	Data valid indicator (read)
 
-Source code:
+**Source code:**
 module MemoryController_16 (
     input wire clk,
     input wire reset,
@@ -86,7 +86,7 @@ module MemoryController_16 (
     end endmodule
 
 Testbench:
-module MemoryController_16_tb;
+	```module MemoryController_16_tb;
     reg clk;
     reg reset;
     reg req;
