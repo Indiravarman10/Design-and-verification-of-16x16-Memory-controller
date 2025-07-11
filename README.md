@@ -34,7 +34,7 @@ Its availability, documentation, and performance make it an ideal platform for p
 •	256 locations (8-bit address space)
 •	Each location stores 8-bit data
 •	Row address = addr[7:4], column address = addr[3:0]
-Controller Tasks:
+**Controller Tasks:**
 •	Decode address → row & column
 •	Generate control : IDLE → READ or WRITE → WAIT → DONE
 •	Manage data bus direction (write to RAM or read from RAM)
@@ -54,7 +54,7 @@ Qa						8-bit	Output data (read)
 valid						1-bit	Data valid indicator (read)
 
 **Source code:**
-module MemoryController_16 (
+https://github.com/Indiravarman10/Design-and-verification-of-16x16-Memory-controller/edit/main/README.mdmodule MemoryController_16 (
     input wire clk,
     input wire reset,
     input wire req,
