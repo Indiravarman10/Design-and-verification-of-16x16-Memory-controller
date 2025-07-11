@@ -54,7 +54,7 @@ Qa						8-bit	Output data (read)
 valid						1-bit	Data valid indicator (read)
 
 **Source code:**
-https://github.com/Indiravarman10/Design-and-verification-of-16x16-Memory-controller/edit/main/README.mdmodule MemoryController_16 (
+ MemoryController_16 (
     input wire clk,
     input wire reset,
     input wire req,
